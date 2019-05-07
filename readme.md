@@ -18,6 +18,9 @@ Exemplo:
 ```node
 const card = require('cartao');
 
-console.log(card('6062825624254001'));
+card.cardValidator('6062825624254001');
 // return true
+
+ card.cardValidator("6062825624254001a")
+// returns "false"
 ```
