@@ -21,6 +21,6 @@ const card = require('cartao');
 card.cardValidator('6062825624254001');
 // return true
 
- card.cardValidator("6062825624254001a")
+card.cardValidator("6062825624254001a")
 // returns "false"
 ```
