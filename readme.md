@@ -10,7 +10,7 @@ $  npm install cartao
 
 ## Como utilizar:
 * Formato de entrada da função: string.
-* Insira apenas os números do cartão, não insira pontos, traços,letras ou vírgulas.
+* Insira apenas os números do cartão, não insira pontos, traços, letras ou vírgulas.
 
 
 Exemplo:
