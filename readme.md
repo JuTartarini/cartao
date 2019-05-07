@@ -16,11 +16,11 @@ $  npm install cartao
 Exemplo:
 
 ```node
-const card = require('cartao');
+const cardValidator = require('cartao');
 
-card.cardValidator('6062825624254001');
+console.log(cardValidator('6062825624254001'));
 // return true
 
-card.cardValidator("6062825624254001a")
+console.log(cardValidator("6062825624254001a"));
 // returns "false"
 ```
