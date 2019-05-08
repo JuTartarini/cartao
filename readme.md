@@ -22,5 +22,5 @@ console.log(cardValidator('6062825624254001'));
 // return true
 
 console.log(cardValidator("6062825624254001a"));
-// returns "false"
+// return "false"
 ```

@@ -33,7 +33,6 @@ describe('Retorna true or false para validar números de cartões de credito ', 
       });
       it('Cartão inválido - 6062825624254005', () => {
         assert.equal(cardValidator('6062825624254005'), false);
-        //expect(lib.cardValidator("5155901285384518")).to.be.equal(true);
       });
       it('Cartão válido com espaço no início - 6062825624254001', () => {
         assert.equal(cardValidator(' 6062825624254001'), false);
